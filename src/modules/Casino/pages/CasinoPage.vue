@@ -1,5 +1,5 @@
 <template>
-  <div class="container" v-if="puntaje < 10 && intento <= 5">
+  <div class="container" v-if="puntaje < 10 && intento < 5">
     <h1>Casino</h1>
     <div class="score">
       <h2>Puntaje: {{ puntaje }}</h2>
